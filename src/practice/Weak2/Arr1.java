@@ -1,4 +1,4 @@
-package practice;
+package practice.Weak2;
 
 public class Arr1 {
     public static  void main(String[] args){
