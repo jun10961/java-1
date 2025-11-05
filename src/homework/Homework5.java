@@ -79,10 +79,10 @@ class Computer {
 
 public class Homework5 {
     public static void main(String[] args) {
-        Monitor m = new Monitor("32 inch", "Black", "45W");
-        Computer c = new Computer("Core i7", "32GB", "2TB", "White", "700W");
+        Monitor monitor = new Monitor("32 inch", "Black", "45W");
+        Computer computer = new Computer("Core i7", "32GB", "2TB", "White", "700W");
 
-        PersonalComputer pc = new PersonalComputer(c, m);
+        PersonalComputer pc = new PersonalComputer(computer, monitor);
         pc.turnOn();
         pc.printInfo();
     }
